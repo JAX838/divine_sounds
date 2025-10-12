@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { CartProvider } from "./context/CartContext";
 import { Toaster } from "react-hot-toast";
 
-import Navbar from "./components/NavBar";
+import Navbar from "./components/Navbar";
 // Pages & Components
 import HomePage from "./pages/HomePage";
 import ProductList from "./components/ProductList";
@@ -33,7 +33,6 @@ function App() {
       <Router>
         <Toaster position="top-center" reverseOrder={false} />
 
-        {/* ✅ Global Navbar visible on all pages */}
         <Navbar />
 
         <main className="min-h-screen bg-gray-50">
