@@ -13,7 +13,6 @@ import CheckoutPage from "./pages/CheckoutPage";
 import ConfirmationPage from "./pages/ConfirmationPage";
 import WhyChooseUsAndServices from "./components/WhyChooseUsAndServices";
 
-// Admin Imports
 import AdminDashboard from "./pages/AdminDashboard";
 import AdminAddProduct from "./pages/AdminAddProduct";
 import AdminOrders from "./pages/AdminOrders";
@@ -27,6 +26,7 @@ import Footer from "./components/Footer";
 import AboutUsSection from "./components/AboutUsSection";
 import ContactUs from "./components/ContactUs";
 import WhatsAppButton from "./components/WhatsAppButton";
+import SearchPage from "./pages/SearchPage";
 function App() {
   return (
     <CartProvider>
@@ -67,8 +67,10 @@ function App() {
             <Route path="/admin/orders" element={<AdminOrders />} />
             <Route path="/admin/login" element={<AdminLogin />} />
             <Route path="/admin/register" element={<AdminRegister />} />
+            <Route path="/search" element={<SearchPage />} />
           </Routes>
         </main>
+
         <Footer />
         <WhatsAppButton />
       </Router>
