@@ -13,7 +13,7 @@ const Navbar = () => {
         <Link to="/" className="flex items-center space-x-2">
           <img
             src="/images/logo.jpeg"
-            alt="Jowaki Sound Systems"
+            alt="Divine Sound Systems"
             className="h-10 w-10 object-contain"
           />
           <div>
@@ -41,6 +41,11 @@ const Navbar = () => {
           <li>
             <Link to="/services" className="hover:text-blue-600 transition">
               Services
+            </Link>
+          </li>
+          <li>
+            <Link to="/contact" className="hover:text-blue-600 transition">
+              Contact
             </Link>
           </li>
           <li>

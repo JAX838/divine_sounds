@@ -1,12 +1,9 @@
 import React from "react";
-import {
-  FaFacebookF,
-  FaInstagram,
-  FaTwitter,
-  FaYoutube,
-  FaWhatsapp,
-} from "react-icons/fa";
+import { FaFacebookF, FaTiktok } from "react-icons/fa";
 import { Link } from "react-router-dom";
+
+const FB_USERNAME = "Divine Sounds KE";
+const TIKTOK_USERNAME = "divine_soundske";
 
 export default function Footer() {
   return (
@@ -61,34 +58,25 @@ export default function Footer() {
           </h3>
           <div className="flex space-x-4">
             <a
-              href="#"
+              href={`https://facebook.com/${FB_USERNAME}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Facebook"
+              title="Facebook"
               className="p-3 bg-gray-800 rounded-full hover:bg-blue-600 transition"
             >
               <FaFacebookF />
             </a>
+
             <a
-              href="#"
+              href={`https://www.tiktok.com/@${TIKTOK_USERNAME}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="TikTok"
+              title="TikTok"
               className="p-3 bg-gray-800 rounded-full hover:bg-pink-500 transition"
             >
-              <FaInstagram />
-            </a>
-            <a
-              href="#"
-              className="p-3 bg-gray-800 rounded-full hover:bg-sky-400 transition"
-            >
-              <FaTwitter />
-            </a>
-            <a
-              href="#"
-              className="p-3 bg-gray-800 rounded-full hover:bg-red-600 transition"
-            >
-              <FaYoutube />
-            </a>
-            <a
-              href="#"
-              className="p-3 bg-gray-800 rounded-full hover:bg-green-500 transition"
-            >
-              <FaWhatsapp />
+              <FaTiktok />
             </a>
           </div>
         </div>

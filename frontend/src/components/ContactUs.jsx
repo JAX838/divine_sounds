@@ -38,7 +38,7 @@ export default function ContactUs() {
           </h1>
           <p className="text-gray-600 max-w-2xl mx-auto">
             We’d love to hear from you! Whether it’s an inquiry about speakers,
-            mixers, or full sound system setups — we’re here to help.
+            mixers, or full sound system setups, we’re here to help.
           </p>
         </div>
 
@@ -102,25 +102,41 @@ export default function ContactUs() {
             <div className="space-y-4 text-lg">
               <div className="flex items-center gap-3">
                 <FaPhoneAlt className="text-2xl" />
-                <p>+254 712 345 678</p>
+                <p>+254 700497710</p>
               </div>
               <div className="flex items-center gap-3">
                 <FaEnvelope className="text-2xl" />
-                <p>info@divinesounds.co.ke</p>
+                <p>Divine1Sounds@gmail.com</p>
               </div>
               <div className="flex items-center gap-3">
                 <FaMapMarkerAlt className="text-2xl" />
-                <p>Moi Avenue, Nairobi, Kenya</p>
+                <p>Luthuli Avenue, Nairobi, Kenya</p>
               </div>
             </div>
 
             <div className="mt-8">
-              <iframe
-                title="Divine Sounds Map"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.819181293029!2d36.8238!3d-1.2833!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f10e89a1c5a8b%3A0xddd6e6a6b62b10f4!2sMoi%20Avenue%2C%20Nairobi!5e0!3m2!1sen!2ske!4v0000000000000"
-                className="w-full h-56 rounded-lg border-0"
-                loading="lazy"
-              ></iframe>
+              {/* Embedded Google Map for Divine Sounds (Luthuli Avenue) */}
+              <div className="w-full h-56 rounded-lg overflow-hidden border-0">
+                <iframe
+                  title="Divine Sounds - Luthuli Avenue"
+                  src="https://www.google.com/maps?q=-1.2838478,36.8282766&z=18&output=embed"
+                  className="w-full h-full"
+                  style={{ border: 0 }}
+                  loading="lazy"
+                  allowFullScreen
+                ></iframe>
+              </div>
+
+              <p className="text-sm mt-2">
+                <a
+                  href="https://www.google.com/maps/place/DIVINE+SOUNDS/@-1.2830781,36.8281995,3a,75y,353.99h,90t/data=!3m7!1e1!3m5!1svZmIQIArNSAfSXYpyQYBMA!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D0%26panoid%3DvZmIQIArNSAfSXYpyQYBMA%26yaw%3D353.9894969860002!7i16384!8i8192!4m7!3m6!1s0x182f11297a930053:0x6a3277bde3976543!8m2!3d-1.2838478!4d36.8282766!10e5!16s%2Fg%2F11sh4z0mqb?entry=ttu&g_ep=EgoyMDI1MTAwOC4wIKXMDSoASAFQAw%3D%3D#"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="underline text-white"
+                >
+                  Open in Google Maps
+                </a>
+              </p>
             </div>
           </div>
         </div>
