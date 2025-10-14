@@ -26,7 +26,7 @@ export default function ProductDetails() {
   };
 
   const handleWhatsAppOrder = () => {
-    const phone = "254700000000"; // ✅ Replace with your business number
+    const phone = "254700497710"; // ✅ Replace with your business number
     const message = encodeURIComponent(
       `Hello! I'm interested in *${
         product.name

@@ -2,6 +2,7 @@ import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { CartProvider } from "./context/CartContext";
 import { Toaster } from "react-hot-toast";
+import ScrollToTop from "./components/ScrollToTop";
 
 import Navbar from "./components/Navbar";
 // Pages & Components
@@ -31,6 +32,7 @@ function App() {
   return (
     <CartProvider>
       <Router>
+        <ScrollToTop/>
         <Toaster position="top-center" reverseOrder={false} />
 
         <Navbar />

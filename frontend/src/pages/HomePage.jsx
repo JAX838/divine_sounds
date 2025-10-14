@@ -103,13 +103,13 @@ const HomePage = () => {
         {/* Controls */}
         <button
           onClick={prevSlide}
-          className="absolute left-4 top-1/2 transform -translate-y-1/2 bg-gray-700 bg-opacity-60 hover:bg-opacity-80 text-white p-3 rounded-full"
+          className="absolute left-4 top-1/2 transform -translate-y-1/2 bg-colorless bg-opacity-60 hover:bg-opacity-80 text-white p-3 rounded-full"
         >
           ‹
         </button>
         <button
           onClick={nextSlide}
-          className="absolute right-4 top-1/2 transform -translate-y-1/2 bg-gray-700 bg-opacity-60 hover:bg-opacity-80 text-white p-3 rounded-full"
+          className="absolute right-4 top-1/2 transform -translate-y-1/2 bg-colorless bg-opacity-60 hover:bg-opacity-80 text-white p-3 rounded-full"
         >
           ›
         </button>
